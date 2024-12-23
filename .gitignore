@@ -1,3 +1,4 @@
+.vscode/settings.json
 .env
 insert_data.py
 insert_dummy_user_data.py
