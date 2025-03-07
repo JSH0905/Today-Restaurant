@@ -6,10 +6,57 @@
 |                |NAME                          |
 |----------------|-------------------------------|
 |Language         |`JavaScript`|
-|IDE     |`VScode`|
-|API     |`Kakao Map API`|
+|Styling     |`CSS`|
+|Framework     |`Express.js`|
+|Template Engine     |`EJS`|
+|Database     |`Microsoft SQL Server (Azure)`|
+|Authentication     |`Passport.js`, `Bcrypt`|
+|Session Management     |`Express-session`|
 |Server     |`Node.js`|
-|Storage     |`MSSQL`|
+|API     |`Kakao Map API`|
+|IDE     |`VScode`|
+
+## ✅ 사전 요구사항
+이 프로젝트를 실행하기 위해서는 아래의 환경이 필요합니다:
+
+### 사전 설치
+- Node.js (v14 이상)
+- npm 또는 yarn
+- Microsoft SQL Server
+
+### 외부 API
+- 카카오 개발자 계정 및 API 키
+- 공공데이터 포털에서 경상북도 경주시_경주문화관광_메뉴별음식점 검색후 활용 신청 및 API키 발급
+
+### 발급받은 데이터를 json 파일로 만든후 MSSQL에 데이터 삽입
+
+## 🖥️  어플리케이션 실행 (로컬 환경)
+### 1. 프로젝트 Clone
+```
+git clone https://github.com/JSH0905/Today-Restaurant.git
+```
+
+### 2. 프로젝트 이동
+```
+cd Today-Restaurant
+```
+
+### 3. 의존성 설치
+
+```
+npm install
+```
+
+### 4. .env 파일 생성 후 내용 작성
+
+```
+DB_SERVER=your_db_server
+DB_USER=your_db_user
+DB_PW=your_db_password
+DB_NAME=your_db_name
+DB_PORT=your_db_port
+SESSION_SECRET=your_session_secret
+```
 
 ## 🌟 서비스 기능
 ### 메인화면
